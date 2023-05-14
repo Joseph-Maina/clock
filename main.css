@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(25, 55, 80, 0.582);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    background-color: #1d3041;
+    padding: 20px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* text-align: center; */
+    padding: 20px 0;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  
+  .item1 {
+   grid-area: 1/1 span 4 / span 2;
+  }
+  
+
+  .pic{
+    margin-left: 0px;
+    object-position: left top;
+  }
